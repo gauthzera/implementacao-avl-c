@@ -1,6 +1,11 @@
 # Árvore AVL em C
 
-Implementação simples de uma árvore AVL em C feita para estudo de algoritmos e estruturas de dados.
+Implementação uma árvore AVL em C feita para estudo de algoritmos e estruturas de dados.
+
+## Arquivos
+
+- `avl.c` → implementação da árvore AVL com inserção, remoção e balanceamento.
+- `avl_bfs.c` → implementação da AVL com percurso em largura (Breadth-First Search) usando fila encadeada.
 
 ## Funcionalidades
 
@@ -8,6 +13,7 @@ Implementação simples de uma árvore AVL em C feita para estudo de algoritmos 
 - Remoção balanceada
 - Busca
 - Percurso em ordem
+- Percurso em largura (BFS)
 - Rotações simples e duplas
 - Atualização automática de alturas
 
@@ -17,18 +23,30 @@ Implementação simples de uma árvore AVL em C feita para estudo de algoritmos 
 - Balanceamento AVL
 - Recursão
 - Ponteiros em C
+- Fila encadeada
+- BFS (Breadth-First Search)
 - Alocação dinâmica de memória
 
 ## Compilação
 
+Para compilar a implementação principal:
 ```bash
-gcc main.c -o avl
+gcc avl.c -o avl
+```
+Para compilar a implementação com percurso BFS:
+```bash
+gcc avl_bfs.c -o avlBFS
 ```
 
 ## Execução
 
+Implementação principal:
 ```bash
 ./avl
+```
+Implementação com BFS:
+```bash
+./avlBFS
 ```
 
 ## Autor
