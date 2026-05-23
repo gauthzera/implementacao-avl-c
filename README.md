@@ -1,6 +1,6 @@
 # Árvore AVL em C
 
-Implementação uma árvore AVL em C feita para estudo de algoritmos e estruturas de dados.
+Implementação de uma árvore AVL em C feita para estudo de algoritmos e estruturas de dados.
 
 ## Arquivos
 
@@ -15,7 +15,7 @@ Implementação uma árvore AVL em C feita para estudo de algoritmos e estrutura
 - Percurso em ordem
 - Percurso em largura (BFS)
 - Rotações simples e duplas
-- Atualização automática de alturas
+- Atualização da altura de cada nó
 
 ## Conceitos utilizados
 
